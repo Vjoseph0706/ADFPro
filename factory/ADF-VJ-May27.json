@@ -1,0 +1,15 @@
+{
+	"name": "ADF-VJ-May27",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a63aaaf-50ff-4a84-b1d0-829e17ef047c",
+		"tenantId": "b45c3506-e75b-469c-a0d1-745f6f39a161"
+	}
+}

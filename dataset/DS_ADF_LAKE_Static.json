@@ -1,0 +1,20 @@
+{
+	"name": "DS_ADF_LAKE_Static",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADF_LAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
