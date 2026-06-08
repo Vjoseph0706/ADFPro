@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-VJ-May27"
+		},
+		"LS_ADF_LAKE_accountKey": {
+			"value": ""
+		},
+		"LS_ADF_LAKE_properties_typeProperties_url": {
+			"value": "https://datalakemay27.dfs.core.windows.net/"
+		},
+		"LS_GIT_ADF_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
