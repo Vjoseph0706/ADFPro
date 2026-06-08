@@ -1,0 +1,17 @@
+{
+	"name": "DemoGit",
+	"properties": {
+		"activities": [
+			{
+				"name": "Demo-Git",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 60
+				}
+			}
+		],
+		"annotations": []
+	}
+}
